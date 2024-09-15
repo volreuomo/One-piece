@@ -10,15 +10,13 @@ class Volume:
         self.lista_capitoli = []
 
     def scarica(self):
-        i = 1
-        for numero_capitolo in self.numeri_capitoli:
+        for i,numero_capitolo in enumerate(self.numeri_capitoli,1):
             print(f"scaricando il capitolo {i}/{len(self.numeri_capitoli)}")
             capitolo = Capitolo(numero_capitolo)
             self.lista_capitoli.append(capitolo)
             capitolo.scarica()
             capitolo.converti_in_pdf()
             capitolo.elimina_immagini()
-            i = i + 1
 
     def mergi_il_tutto(self):
         merger = PdfMerger()
