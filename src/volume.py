@@ -10,7 +10,7 @@ class Volume:
         self.lista_capitoli = []
 
     def scarica(self):
-        for i,numero_capitolo in enumerate(self.numeri_capitoli,1):
+        for i, numero_capitolo in enumerate(self.numeri_capitoli, 1):
             print(f"scaricando il capitolo {i}/{len(self.numeri_capitoli)}")
             capitolo = Capitolo(numero_capitolo)
             self.lista_capitoli.append(capitolo)
