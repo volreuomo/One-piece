@@ -22,7 +22,7 @@ per scaricare uno o piu capitoli
 py main.py scarica_capitoli {capitolo}  
 ```
 
-per scarica da capitolo a altro capitolo
+per scaricare da capitolo fino altro capitolo
 ```
 py main.py scarica_capitoli {capitolo iniziale} {capitolo finale}
 ```
