@@ -1,6 +1,6 @@
 # Scarica Capitoli One Piece
 
-## Feautures
+## Features
 - tante opzioni per scaricare solo i capitoli che servono
 - crea pdf con segnalibri per facile navizione
 
