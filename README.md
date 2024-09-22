@@ -19,12 +19,12 @@ pip install -r requirements.txt
 
 per scaricare uno o piu capitoli
 ```
-py main.py scarica_capitoli {capitolo}  
+py src/main.py scarica_capitoli {capitolo}  
 ```
 
 per scaricare da capitolo fino altro capitolo
 ```
-py main.py scarica_capitoli {capitolo iniziale} {capitolo finale}
+py src/main.py scarica_capitoli {capitolo iniziale} {capitolo finale}
 ```
 
 #### ultimo
@@ -32,13 +32,13 @@ py main.py scarica_capitoli {capitolo iniziale} {capitolo finale}
 per scaricare ultimo capitolo
 
 ```
-py main.py ultimo
+py src/main.py ultimo
 ```
 
 #### scarica_volume 
 per scaricare un volume
 ```
-py main.py scarica_volume {volume da scaricare}
+py src/main.py scarica_volume {volume da scaricare}
 ```
 
 
